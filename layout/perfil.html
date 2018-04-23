@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <style media="screen">
+    .btn:hover {
+      background-color: #00baff;
+    }
+
+    .ancho100 {
+      width: 100%;
+    }
+
+    .upgrade-file-btn {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <a href="#" class="brand-logo center"><img src="../assets/img/letras_1.png" alt=""></a>
+      </div>
+    </nav>
+
+    <ul id="slide-out" class="sidenav">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="../assets/img/user_Background.jpg">
+          </div>
+          <a href="#user"><img class="circle" src="../assets/img/Empresa_iconoV2.png" ></a>
+          <a href="#name"><span class="white-text name" id="user_Name">user</span></a>
+          <a href="#logOut" id="logOut"><span class="white-text name" id="user_Name">Log Out</span></a>
+        </div>
+      </li>
+      <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+          <li class="bold"><a class="collapsible-header waves-effect waves-teal" href="principal.html">Home</a></li>
+          <li class="bold"><a class="collapsible-header waves-effect waves-teal" tabindex="0">Dashboard</a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="asistencia.html">Asistencia</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="bold"><a class="collapsible-header waves-effect waves-teal" href="perfil.html">Perfil</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="#!">one</a></li>
+      <li><a href="#!">two</a></li>
+      <li class="divider"></li>
+      <li><a href="#!">three</a></li>
+    </ul>
+  </header>
+  <div class="container">
+    <div class="row">
+      <h5>Información de Perfil</h5>
+      <div class="col s4 m4 l4">
+        <img id="img-logo" class="responsive-img" src="../assets/img/Imagen-no-disponible.png" alt="" style="width:100%;">
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <form action="#" method="post">
+              <div class="file-field input-field">
+                <div class="btn">
+                  <span>File</span>
+                  <input type="file" id="imgButton">
+                </div>
+                <div class="file-path-wrapper">
+                  <input class="file-path validate" type="text">
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col s8 m8 l8">
+        <form class="" action="#" method="post">
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="razon" type="email" class="validate">
+              <label for="razon">Razón Social</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="direccion" type="text" class="validate">
+              <label for="direccion">Dirección</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="text" class="validate">
+              <label for="email">correo eléctronico</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="telefono" type="text" class="validate">
+              <label for="telefono">telefono</label>
+            </div>
+          </div>
+          <div class="row">
+            <label> Versión: </label>
+            <div class="chip" id="version">
+              BASIC
+            </div>
+            <a class="waves-effect waves-light btn">Upgrade</a>
+          </div>
+          <div class="row">
+            <div class="col s10 m10 l10">
+              <form action="#">
+                <div class="file-field input-field">
+                  <div class="btn">
+                    <span>Archivo</span>
+                    <input type="file" id="fileInput">
+                  </div>
+                  <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="Subir archivo">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="col s2 m2 l2">
+              <a class="waves-effect waves-light btn upgrade-file-btn" id="FileButton">cargar</a>
+            </div>
+          </div>
+          <div class="row">
+            <table class="highlight responsive-table">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Nombre</th>
+                  <th>Subido</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Curriculum</td>
+                  <td>18/04/2018</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Capacitación_PrimerosAuxilios</td>
+                  <td>17/04/2018</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="row right-align">
+            <button class="btn waves-effect waves-light" type="submit" name="action">Guardar
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </div>
+  <script src="../assets/js/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="../assets/js/navbar.js" type="text/javascript"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.9.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase-auth.js"></script>
+  <script src="../assets/js/firestore.init.js" type="text/javascript"></script>
+  <script type="text/javascript" src="../assets/js/logOut.js"></script>
+  <script type="text/javascript" src="../assets/js/uploadFiles.js"></script>
+  <script type="text/javascript" src="../assets/js/perfil.js"></script>
+  <script type="text/javascript">
+    firebase.auth().onAuthStateChanged(function(user) {
+      if (user) {
+        $("#user_Name").text(user.email);
+      } else {
+        console.log("No user");
+      }
+    });
+  </script>
+  <script type="text/javascript">
+    var currentuser;
+    var file = null;
+    var fileButton = document.getElementById('FileButton');
+    var fileInput = document.getElementById('fileInput');
+    firebase.auth().onAuthStateChanged(function(user) {
+      if (user) {
+        currentuser = user;
+
+      }
+    });
+
+    fileInput.addEventListener('change', function(e) {
+      file = e.target.files[0];
+    });
+
+    fileButton.addEventListener('click', function(e) {
+      //Get file
+
+      //////////
+      //Create a storage ref
+      var storage = firebase.storage();
+
+      // Create a storage reference from our storage service
+      var storageRef = storage.ref();
+      //var uploadTask = storageRef.child('images/' + file.name).put(file);
+      var uploadTask = storageRef.child("SmartSoftware" + "/" + currentuser.uid + "/Files/" + currentuser.uid).put(file);
+
+      // Listen for state changes, errors, and completion of the upload.
+      uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
+        function(snapshot) {
+          // Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
+          var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+          console.log('Upload is ' + progress + '% done');
+          switch (snapshot.state) {
+            case firebase.storage.TaskState.PAUSED: // or 'paused'
+              console.log('Upload is paused');
+              break;
+            case firebase.storage.TaskState.RUNNING: // or 'running'
+              console.log('Upload is running');
+              break;
+          }
+        },
+        function(error) {
+
+          // A full list of error codes is available at
+          // https://firebase.google.com/docs/storage/web/handle-errors
+          switch (error.code) {
+            case 'storage/unauthorized':
+              // User doesn't have permission to access the object
+              break;
+
+            case 'storage/canceled':
+              // User canceled the upload
+              break;
+
+            case 'storage/unknown':
+              // Unknown error occurred, inspect error.serverResponse
+              break;
+          }
+        },
+        function() {
+          // Upload completed successfully, now we can get the download URL
+          var downloadURL = uploadTask.snapshot.downloadURL;
+          var docRef = db.collection("user_permits").doc(currentuser.uid);
+          var nombreArchivo = "'" + file.name.toString() + "'";
+          var fileObj;
+          nombreArchivo = {
+            URL: downloadURL
+          }
+          console.log(fileObj)
+          docRef.update({
+              "files": {
+                fileObj
+              }
+            })
+            .then(function() {
+              console.log("Document successfully updated!");
+            })
+            .catch(function(error) {
+              // The document probably doesn't exist.
+              console.error("Error updating document: ", error);
+            });
+        });
+    })
+  </script>
+</body>
+
+</html>

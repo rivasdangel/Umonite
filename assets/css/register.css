@@ -1,0 +1,59 @@
+.login-icon-field2 {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  /*background-color: red;*/
+}
+.login-form2 {
+  height: 120px;
+  width: 100%;
+  /*background-color: green;*/
+}
+.register{
+  width: 280px;
+  margin-top: 0px;
+  margin-left: 225px;
+  padding: 0px 10px;
+  padding-bottom: 0px;
+}
+
+.username-row2 {
+  position: relative;
+  margin-left: 10px;
+  height: 40px;
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+
+
+.password-row2 {
+  position: relative;
+  margin-left: 10px;
+  height: 40px;
+  border-bottom: 1px solid;
+}
+
+#username-input{
+  color: black;
+}
+
+#password-input{
+  color: black;
+}
+
+.password-icon2 .key-path2,
+.user-icon2 .user-path2{
+  stroke: #000;
+}
+
+.register-input {
+  width: 195px;
+  height: 30px;
+  margin: 5px 0;
+  color: black;
+}
+
+.register-input::placeholder {
+  color: black;
+  opacity: 0.4;
+}

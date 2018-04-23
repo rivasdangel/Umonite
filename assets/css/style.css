@@ -1,0 +1,44 @@
+nav{
+  background-color: rgba(0, 0, 0, 0.77);
+}
+
+nav a.sidenav-trigger{
+  display: block;
+}
+
+.aling-li{
+  padding: 0 16px;
+}
+
+.card-counters{
+  color: #019F9A;
+  border: 3px solid #019F9A;
+}
+.counter{
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.text-counter{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.lnr-mustache, .lnr-sad, .lnr-smile, .lnr-history {
+  color: #019F9A;
+  font-size: 45px;
+}
+
+#chartdiv {
+  width: 100%;
+  height: 500px;
+  margin: auto;
+}
+
+button:hover{
+  background-color: #00AEEF;
+}
+
+.btn{
+  background-color: #00AEEF;
+}

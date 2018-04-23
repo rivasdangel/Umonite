@@ -1,0 +1,259 @@
+.call-to-action {
+  margin: 22px 0;
+  height: 130px;
+  width: 100%;
+  /*background-color: blue;*/
+}
+
+.call-to-action1 {
+  margin: 22px 0px;
+  height: 130px;
+  width: 100%;
+  /*background-color: blue;*/
+}
+
+button {
+  display: block;
+  width: 240px;
+  height: 40px;
+  padding: 0;
+  margin: 10px 20px 10px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #00AEEF;
+  border: none;
+  border-radius: 20px;
+  transition: background-color .10s ease-in-out;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+.button1 {
+  display: block;
+  width: 240px;
+  height: 40px;
+  padding: 10px;
+  margin: 42px 0px 10px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #00AEEF;
+  border: none;
+  border-radius: 20px;
+  transition: background-color .10s ease-in-out;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+button:hover {
+  background-color: #1dc1ff;
+}
+
+button:active {
+  background-color: #00b9ff;
+}
+
+p {
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+  margin: 0 40px;
+  font-size: .8rem;
+  color: rgba(255,255,255,.4);
+  /*background-color: yellow;*/
+}
+
+p a {
+  color: #fff;
+}
+
+label,
+p a:hover {
+  -webkit-cursor: pointer;
+  cursor: pointer;
+}
+
+@-webkit-keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.password-icon .key-path,
+.user-icon .user-path{
+  fill: rgba(10,10,10,0);
+  stroke: #fff;
+  stroke-width: 3.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+  stroke-dasharray: 300;
+  stroke-dashoffset: 300;
+  -webkit-animation: dash 3s .3s linear forwards;
+  animation: dash 3s .3s linear forwards;
+}
+.password-icon1 .key-path1,
+.user-icon1 .user-path1{
+  fill: rgba(10,10,10,0);
+  stroke: #fff;
+}
+
+input {
+  position: absolute;
+  width: 195px;
+  height: 30px;
+  margin: 5px 0;
+  color: white;
+  background: transparent;
+  border: none;
+}
+input:focus,
+button:focus {
+  outline: none;
+}
+
+input::-webkit-input-placeholder {
+  color: rgba(255,255,255,.4);
+}
+
+input::-moz-placeholder {
+  color: rgba(255,255,255,.4);
+}
+.username-row {
+  position: relative;
+  height: 40px;
+  /*background-color: pink;*/
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+
+.password-row {
+  position: relative;
+  height: 40px;
+ /* background-color: grey;*/
+  border-bottom: 1px solid;
+  margin-right: 40px;
+}
+
+.username-row1 {
+  position: relative;
+  height: 40px;
+  /*background-color: pink;*/
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+.username-row2 {
+  position: relative;
+  height: 40px;
+  /*background-color: pink;*/
+  border-bottom: 1px solid;
+  margin-bottom: 10px;
+}
+.password-row1 {
+  position: relative;
+  height: 40px;
+ /* background-color: grey;*/
+  border-bottom: 1px solid;
+}
+
+.password-icon,
+.user-icon {
+  margin: 5px;
+}
+
+.password-icon1,
+.user-icon1 {
+  margin: 5px;
+}
+
+.row {
+  display: none;
+}
+
+.login-icon-field {
+  height: 250px;
+  width: 100%;
+  /*background-color: red;*/
+}
+.login-icon-field1 {
+  height: 220px;
+  width: 100%;
+  /*background-color: red;*/
+}
+
+.login-icon {
+  margin: 50px 65px;
+}
+.login-icon1 {
+  margin: 50px 65px;
+}
+.login-form {
+  padding: 8px 20px 20px;
+  height: 120px;
+  width: 100%;
+  /*background-color: green;*/
+}
+
+
+.login-form1 {
+  height: 120px;
+  width: 100%;
+  /*background-color: green;*/
+}
+.login {
+  max-width: 280px;
+  min-height: 500px;
+  margin: 30px auto;
+  background-color: rgba(10,10,10,.68);
+}
+
+.login1 {
+  max-width: 280px;
+  min-height: 500px;
+  margin: 0px auto;
+  padding: 32px 15px;
+  padding-bottom: 2px;
+  background-color: rgba(10,10,10,.68);
+}
+
+.social-items{
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.fa{
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  color: white;
+}
+
+.fa:hover {
+  color: #fff;
+  background-color: #333333;
+}
+
+
+.fa-facebook{
+  background: #3B5998;
+}
+
+
+.fa-google{
+  background: #d62d20;
+}
+
+.fa-twitter{
+  background: #00aced;
+}
